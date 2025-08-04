@@ -61,14 +61,28 @@
             <a href="/" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
         </nav>
 
-        <div class="flex items-center space-x-4">
-            <button class="md:hidden text-gray-600" id="mobile-menu-button">
-                <i class="fas fa-bars text-xl"></i>
-            </button>
-            <a href="/login"
-                class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
-                Login
-            </a>
+        <div class="flex">
+            {{-- Register Button --}}
+            <div class="flex items-center space-x-2">
+                <button class="md:hidden text-gray-600" id="mobile-menu-button">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <a href="/registration"
+                    class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+                    SignUp
+                </a>
+            </div>
+
+            {{-- Login Button --}}
+            <div class="flex items-center space-x-2">
+                <button class="md:hidden text-gray-600" id="mobile-menu-button">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <a href="/login"
+                    class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+                    Login
+                </a>
+            </div>
         </div>
     </div>
 

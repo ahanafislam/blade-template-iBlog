@@ -107,7 +107,7 @@
         <div class="mt-6 text-center">
             <p class="text-sm text-gray-600">
                 Don't have an account?
-                <a href="#" class="font-medium text-blue-600 hover:text-blue-500">Sign up</a>
+                <a href="/registration" class="font-medium text-blue-600 hover:text-blue-500">Sign up</a>
             </p>
         </div>
     </div>
