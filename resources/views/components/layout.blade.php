@@ -6,7 +6,9 @@
     <title>IBlog  | Modern Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+
 </head>
 <body class="bg-gray-50 font-sans">
     {{-- Header/Navigation --}}
@@ -19,6 +21,7 @@
 
     {{-- Footer --}}
     @include('components.partials.footer')
-    <script src="./js/script.js"></script>
+
+    <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>
