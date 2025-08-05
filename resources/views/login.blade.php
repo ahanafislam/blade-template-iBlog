@@ -1,4 +1,4 @@
-@extends('components.layout')
+@extends('layout')
 
 @section('content')
 <!-- Main Content -->
@@ -14,6 +14,7 @@
 
         <!-- Login Form -->
         <form class="mt-8 space-y-6" action="#" method="POST">
+            @csrf
             <div class="rounded-md shadow-sm space-y-4">
                 <!-- Email Input -->
                 <div>

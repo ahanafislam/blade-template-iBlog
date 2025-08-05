@@ -12,7 +12,7 @@
 </head>
 <body class="bg-gray-50 font-sans">
     {{-- Header/Navigation --}}
-    @include('components.partials.nav')
+    @include('components.header')
 
     {{-- Main contain Section --}}
     <main>
@@ -20,7 +20,7 @@
     </main>
 
     {{-- Footer --}}
-    @include('components.partials.footer')
+    @include('components.footer')
 
     <script src="{{ asset('js/script.js') }}"></script>
 </body>

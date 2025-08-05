@@ -1,4 +1,4 @@
-@extends('components.layout')
+@extends('layout')
 
 @section('content')
 <main class="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -10,7 +10,8 @@
 
         {{-- Signup Form --}}
         <form class="mt-6 space-y-5" action="#" method="POST" id="signupForm">
-            <!-- Name Input -->
+            @csrf
+            {{-- Name Input --}}
             <div>
                 <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
                 <div class="relative">
