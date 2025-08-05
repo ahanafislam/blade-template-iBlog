@@ -15,7 +15,7 @@
 - Employed `@include` for recurring UI elements.
 
 ### 3. Page Conversion
-- Generate SignUp Button
+- Create SignUp Button
 - Create /login Route `views/login.blade.php`
 - Establish /registration route and transfer the registration form along with associated content into this view `views/register.blade.php`, extending the base layout.
 
